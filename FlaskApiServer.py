@@ -25,9 +25,9 @@ app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL']= False
 #app.config['MAIL_DEBUG']= True
-app.config['MAIL_USERNAME'] = 'mattelimayssa@gmail.com'
-app.config['MAIL_PASSWORD'] = 'mayssaing3@'
-app.config['MAIL_DEFAULT_SENDER'] = 'mattelimayssa@gmail.com'
+app.config['MAIL_USERNAME'] = 'xxxxxxx@gmail.com'
+app.config['MAIL_PASSWORD'] = 'xxxxxxxxx'
+app.config['MAIL_DEFAULT_SENDER'] = 'xxxxxxxxx@gmail.com'
 app.config['MAIL_MAX_EMAILS'] = None
 #app.config['MAIL_SUPPRESS_SEND']=False
 app.config['MAIL_ASCII_ATTACHMENTS']=False
@@ -40,7 +40,7 @@ mail = Mail(app)
 def index():
     """
    ** this byte of code was for testing the mail sending and it was successful**
-    msg = Message('Hey There', recipients=['mayssa.mettali@sesame.com.tn'])
+    msg = Message('Hey There', recipients=['xxxxxx@sxxxxx'])
     mail.send(msg)"""
     return render_template('index.html')
  
